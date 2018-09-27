@@ -1,6 +1,8 @@
 package model;
 
-public class Mouse {
+import javafx.scene.control.TableView;
+
+public class Mouse extends TableView {
 
     private int number;
     private String serialN;

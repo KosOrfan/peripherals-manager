@@ -1,6 +1,8 @@
 package model;
 
-public class Monitor {
+import javafx.scene.control.TableView;
+
+public class Monitor extends TableView {
 
     private int number;
     private String serialN;

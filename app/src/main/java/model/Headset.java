@@ -1,6 +1,8 @@
 package model;
 
-public class Headset {
+import javafx.scene.control.TableView;
+
+public class Headset extends TableView {
 
     private int number;
     private String brand;

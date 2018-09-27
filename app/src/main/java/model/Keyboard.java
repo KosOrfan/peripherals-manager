@@ -1,6 +1,8 @@
 package model;
 
-public class Keyboard {
+import javafx.scene.control.TableView;
+
+public class Keyboard extends TableView {
 
     private int number;
     private String serialN;
