@@ -1,15 +1,13 @@
 package controller;
 
-import java.io.IOException;
-
+import javafx.event.Event;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import model.*;
 
-import model.Computer;
-import model.Headset;
-import model.Keyboard;
-import model.Monitor;
-import model.Mouse;
+import java.io.IOException;
 
 public class Controller {
 
@@ -25,12 +23,17 @@ public class Controller {
     public Controller() throws IOException {
     }
 
-    public void setMain_view(Pane pane) throws IOException {
-        this.main_view = pane;
+    @FXML
+    public void loadView(Event event) throws IOException {
+        System.out.println("Open pressed");
     }
 
     public Pane getMain_view() {
         return main_view;
+    }
+
+    public void setMain_view(Pane pane) throws IOException {
+        this.main_view = pane;
     }
 
     public Pane getRoot() {

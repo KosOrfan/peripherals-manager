@@ -5,7 +5,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:controller="controller.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <Button layoutX="45.0" layoutY="14.0" mnemonicParsing="false" text="05" wrapText="true" />
         <Button layoutX="84.0" layoutY="14.0" mnemonicParsing="false" text="06" wrapText="true" />
@@ -64,7 +64,7 @@
         <Button layoutX="442.0" layoutY="218.0" mnemonicParsing="false" text="48" wrapText="true" />
         <Button layoutX="551.0" layoutY="167.0" mnemonicParsing="false" text="46" wrapText="true" />
         <Button layoutX="515.0" layoutY="167.0" mnemonicParsing="false" text="47" wrapText="true" />
-      <Button layoutX="17.0" layoutY="323.0" mnemonicParsing="false" text="Open" />
+      <Button layoutX="17.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#loadView" text="Open" />
       <Button layoutX="72.0" layoutY="323.0" mnemonicParsing="false" text="Save" />
       <Button layoutX="161.0" layoutY="361.0" mnemonicParsing="false" text="Test" />
     </children>
